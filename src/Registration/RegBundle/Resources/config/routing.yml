@@ -1,0 +1,7 @@
+registration_reg_homepage:
+    path:     /
+    defaults: { _controller: RegistrationRegBundle:Default:index }
+    
+registration-complete:
+    path:     /registration-complete
+    defaults: { _controller: RegistrationRegBundle:Default:registration_complete }    

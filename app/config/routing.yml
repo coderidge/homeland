@@ -1,0 +1,7 @@
+registration_reg:
+    resource: "@RegistrationRegBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

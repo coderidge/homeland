@@ -1,0 +1,4 @@
+services:
+#    registration_reg.example:
+#        class: Registration\RegBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

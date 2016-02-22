@@ -1,0 +1,27 @@
+{# app/Resources/views/default/regform.html.twig #}
+<html>
+<head>
+   
+      </head>
+ <body>
+    
+  <div class="container">
+  
+   <div class="text-center">
+<h1>Some Useful Government Service</h1> 
+
+<h2>
+{{ form_start(form) }}
+ 
+{{ form_widget(form) }}
+
+<select name=country>
+{%for key,value in countries%}
+  <option value="{{ value }}">{{value}}</option>
+   {%endfor%}
+ </select>  
+   <input type="submit" value="Apply">   
+{{ form_end(form) }}
+</h2>
+</body>
+</html>
