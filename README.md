@@ -24,7 +24,7 @@ Form builder and other quirks
 
 * Successful population of the countries drop down, from the json api / url.  There didn't seem to be solution for passing it into the array of the form builder, without showing the array index in drop down as well.  So opted to pass the data in the view and loop through the indexed array, which does the job.
 
-* tests still need to be created, but not much point until the other things fixed.
+* tests still need to be created but thought time is pressing on.
 
 
 
