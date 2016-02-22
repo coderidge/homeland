@@ -5,6 +5,12 @@ A Symfony project created on February 21, 2016, 9:28 am.
 =======
 # homeland
 
+To use - clone the repository, in a folder on your local server.
+
+The project start page is located and defaults from http://127.0.0.1:8000 
+
+Run in your terminal with the command "php bin/console server:start"
+
 Doctrine and Sqlite 
 
 * Created a bundle called Registration
